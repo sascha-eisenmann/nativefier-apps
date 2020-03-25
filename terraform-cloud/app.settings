@@ -1,0 +1,4 @@
+--name "Terraform Cloud"
+--internal-urls ".*terraform\.io.*|.*github\.com.*|.*bitbucket\.org.*"
+--title-bar-style hidden
+https://app.terraform.io/

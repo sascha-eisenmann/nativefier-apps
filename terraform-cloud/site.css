@@ -1,0 +1,9 @@
+div.has-background-dark-purple {
+	-webkit-app-region: drag;
+}
+
+
+nav::before {
+	content: "";
+	width: 50px
+}
