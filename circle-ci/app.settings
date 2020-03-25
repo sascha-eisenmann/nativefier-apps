@@ -1,0 +1,3 @@
+--name CircleCI
+--internal-urls ".*circleci\.com.*|.*github\.com.*|.*bitbucket\.org.*|.*atlassian\.com.*|.*google\.com.*"
+https://circleci.com/dashboard
