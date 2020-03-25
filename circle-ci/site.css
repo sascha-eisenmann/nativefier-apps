@@ -1,0 +1,12 @@
+nav::before, main::before {
+    height: 25px;
+    content: "";
+    -webkit-app-region: drag;
+}
+
+main:before {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
