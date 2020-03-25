@@ -5,6 +5,7 @@ SCRIPT_DIRECTORY="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 # Configuration
 APP_SETTINGS_FILE_NAME="app.settings"
 ICON_FILE_NAME="icon.png"
+CSS_FILE_NAME="site.css"
 DEFAULT_NATIVEFIER_ARGUMENTS=""
 TARGET_DIRECTORY="$SCRIPT_DIRECTORY/target"
 
@@ -53,6 +54,11 @@ pushd ${APP_DIRECTORY} > /dev/null
   if [ -f "$ICON_FILE_NAME" ]; then
     echo "Info: $ICON_FILE_NAME found. Adding icon to arguments"
     GENERATED_NATIVEFIER_ARGUMENTS="$GENERATED_NATIVEFIER_ARGUMENTS --icon $ICON_FILE_NAME"
+  fi
+  
+  if [ -f "$CSS_FILE_NAME" ]; then
+    echo "Info: $CSS_FILE_NAME found. Adding inject to arguments"
+    GENERATED_NATIVEFIER_ARGUMENTS="$GENERATED_NATIVEFIER_ARGUMENTS --inject $CSS_FILE_NAME"
   fi
 	
 	
