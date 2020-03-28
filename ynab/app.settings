@@ -1,0 +1,4 @@
+--name YNAB
+--internal-urls ".*youneedabudget\.com.*"
+--title-bar-style hidden
+https://app.youneedabudget.com/
