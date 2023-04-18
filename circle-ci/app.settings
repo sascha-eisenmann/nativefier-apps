@@ -1,4 +1,0 @@
---name CircleCI
---internal-urls ".*circleci\.com.*|.*github\.com.*|.*bitbucket\.org.*|.*atlassian\.com.*|.*google\.com.*"
---title-bar-style hidden
-https://circleci.com/dashboard
