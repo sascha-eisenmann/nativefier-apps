@@ -1,0 +1,4 @@
+--name Splitwise
+--internal-urls ".*splitwise\.com.*"
+--title-bar-style hidden
+https://secure.splitwise.com/

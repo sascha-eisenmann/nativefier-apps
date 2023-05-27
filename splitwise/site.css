@@ -1,0 +1,11 @@
+body::before {
+    content: "";
+    height: 25px;
+    width: 100%;
+    position: absolute;
+    -webkit-app-region: drag;
+}
+
+nav {
+	padding-top: 25px !important;
+}
